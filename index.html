@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finland Flight Radar | Premium Tracking</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="map"></div>
+
+    <div class="ui-overlay">
+        <header>
+            <h1>Finland Flight Radar</h1>
+            <p id="status">Connecting to OpenSky...</p>
+        </header>
+
+        <div id="flight-details" class="details-panel hidden">
+            <button class="close-btn">&times;</button>
+            <div class="details-content">
+                <h2 id="callsign">FIN123</h2>
+                <div class="stats">
+                    <div class="stat">
+                        <span class="label">Altitude</span>
+                        <span id="altitude" class="value">-</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">Speed</span>
+                        <span id="speed" class="value">-</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">Origin</span>
+                        <span id="origin" class="value">-</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="refresh-btn">Refresh Now</button>
+            <p class="refresh-timer">Auto-refresh in <span id="timer">30</span>s</p>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="app.js"></script>
+</body>
+</html>
