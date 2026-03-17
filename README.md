@@ -1,7 +1,7 @@
 #  Flight Radar
 
 A premium, high-performance web application for real-time flight tracking. This project leverages the **OpenSky Network API** and **Leaflet.js** to provide a sleek, dark-mode aviation dashboard.
-Prompt : Make a flight radar appliction using Open radar Api. It should be finland specific only.
+# Prompt : Make a flight radar appliction using Open radar Api. It should be finland specific only.
 
 ![Application Mockup](screenshot.png)
 
