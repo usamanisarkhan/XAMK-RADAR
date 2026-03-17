@@ -1,6 +1,6 @@
-# Finland Flight Radar 🇫🇮
+#  Flight Radar
 
-A premium, high-performance web application for real-time flight tracking over Finland. This project leverages the **OpenSky Network API** and **Leaflet.js** to provide a sleek, dark-mode aviation dashboard.
+A premium, high-performance web application for real-time flight tracking. This project leverages the **OpenSky Network API** and **Leaflet.js** to provide a sleek, dark-mode aviation dashboard.
 
 ![Application Mockup](screenshot.png)
 
@@ -86,4 +86,4 @@ The application maintains a `markers` object in memory. On every refresh:
    Navigate to `http://localhost:3000`.
 
 ---
-*Developed with ❤️ for Finland Aviation Enthusiasts.*
+*Developed with ❤️ for  Aviation Enthusiasts.*
